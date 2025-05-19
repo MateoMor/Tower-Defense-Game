@@ -27,6 +27,7 @@ obj/
 # ===================================== #
 *.pidb.meta
 sysinfo.txt
+*.log
 
 # ============ #
 # OS generated #
