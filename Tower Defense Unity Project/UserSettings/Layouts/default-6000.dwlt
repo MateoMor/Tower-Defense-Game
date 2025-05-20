@@ -804,7 +804,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 18.57532, y: -204.89824, z: -18.854706}
+    m_Target: {x: 61.115215, y: 2.4285598, z: -68.445625}
     speed: 2
     m_Value: {x: 18.57532, y: -204.89824, z: -18.854706}
   m_RenderMode: 0
@@ -852,11 +852,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.4836345, y: -0.51632637, z: 0.50412726, w: 0.4954101}
+    m_Target: {x: 0.068181485, y: 0.7488212, z: -0.07804714, w: 0.6548135}
     speed: 2
     m_Value: {x: -0.4836345, y: 0.51632637, z: -0.50412726, w: -0.49541008}
   m_Size:
-    m_Target: 262.77908
+    m_Target: 9.764118
     speed: 2
     m_Value: 262.77908
   m_Ortho:
@@ -1146,7 +1146,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3Dmodels/Enviroment_models/Models/FBX format
+    - Assets/3Dmodels
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1166,7 +1166,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 1e6d0000
     m_LastClickedID: 27934
-    m_ExpandedIDs: 000000005a6a0000
+    m_ExpandedIDs: 0000000050800000528000005480000056800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1195,7 +1195,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a6a0000
+    m_ExpandedIDs: 0000000050800000528000005480000056800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
