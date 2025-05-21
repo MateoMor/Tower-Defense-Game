@@ -1,0 +1,57 @@
+*   [33m3d21d8a[m[33m ([m[1;35mrefs/stash[m[33m)[m WIP on fireball_spell: da70fa3 Implementación FireballSpell y Level 03
+[31m|[m[32m\[m  
+[31m|[m * [33m724265b[m index on fireball_spell: da70fa3 Implementación FireballSpell y Level 03
+[31m|[m[31m/[m  
+[31m|[m * [33mb63a882[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mfireball_spell[m[33m)[m ignored .dwlt
+[31m|[m * [33m8e12dac[m .gitignore updated
+[31m|[m *   [33m91576a9[m Merge branch 'fireball_spell' of https://github.com/MateoMor/Tower-Defense-Game into fireball_spell
+[31m|[m [34m|[m[31m\[m  
+[31m|[m [34m|[m[31m/[m  
+[31m|[m[31m/[m[34m|[m   
+* [34m|[m [33mda70fa3[m[33m ([m[1;31morigin/fireball_spell[m[33m)[m Implementación FireballSpell y Level 03
+[35m|[m *   [33m138f584[m Merge branch 'dev' of https://github.com/MateoMor/Tower-Defense-Game into dev
+[35m|[m [36m|[m[1;31m\[m  
+[35m|[m [36m|[m *   [33mdf746a8[m Merge pull request #1 from MateoMor/enemigos
+[35m|[m [36m|[m [1;32m|[m[1;33m\[m  
+[35m|[m * [1;32m|[m [1;33m|[m [33m11b50ca[m Robots models added
+[35m|[m [1;33m|[m [1;32m|[m[1;33m/[m  
+[35m|[m [1;33m|[m[1;33m/[m[1;32m|[m   
+[35m|[m * [1;32m|[m [33m775a888[m Robots models added
+[35m|[m [1;32m|[m[1;32m/[m  
+[35m|[m * [33m8410052[m[33m ([m[1;31morigin/cambio_assets[m[33m)[m Assets update
+[35m|[m * [33m009954d[m Merge branch 'master' of https://github.com/MateoMor/Tower-Defense-Game into cambio_assets
+[35m|[m[35m/[m[1;35m|[m 
+[35m|[m * [33mdc102c3[m Added *.log to gitignore
+* [1;35m|[m [33m50fb398[m[33m ([m[1;32mcambio_assets[m[33m)[m Commit vacío para crear la rama
+[1;35m|[m[1;35m/[m  
+* [33m546eacd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Update README.md
+* [33mdc344ad[m README.md updated
+* [33mb2a79fc[m ✅ Unity version changed to 6.1 for further development
+* [33m166b442[m Video 28: Level Win
+* [33mdf5983d[m Video 27: Unlock Levels
+* [33m4da59fc[m Video 26: Level Select
+* [33m03a8903[m Video 25: Wave Spawner 2.0
+* [33ma2cb9d0[m Video 24: Fading
+* [33mf55c95f[m Video 23: Health Bars
+* [33m23d3c28[m Video 22: Main Menu
+* [33m0e8edd9[m Video 21: Pause menu
+* [33mfd139ac[m Video 20: Selling Turrets
+* [33mc98a8b1[m Video 19: Upgrading
+* [33m95a0c5d[m Video 18: Selecting Turrets
+* [33mc39182f[m Video 17: Game Over Screen
+* [33m25fcc3c[m Video 16: Slowing, DOT
+* [33mce567e9[m Video 15: Laser Effects
+* [33m74f78d8[m Video 14: Laser Beamer
+* [33m865551f[m Video 13: Lives, enemy health, GameManager
+* [33m999d9c0[m Video 12: UI
+* [33md3069ba[m Video 11: Currency
+* [33m546cb70[m Video 10: Missile
+* [33mdb58f98[m Video 9: Missile Launcher
+* [33m6c8c47c[m Video 8: Shop
+* [33m41eee8d[m Video 7: Camera
+* [33m1642c74[m Video 6: Building
+* [33m27e95ce[m Video 5: Shooting
+* [33m810f89c[m Video 4: Turrets
+* [33m8b47103[m Video 3: Wave Spawner
+* [33m536dd17[m Video 2: Enemy AI
+* [33ma198251[m Initial commit

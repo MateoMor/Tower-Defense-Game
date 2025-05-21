@@ -31,4 +31,12 @@ public class Shop : MonoBehaviour {
 		buildManager.SelectTurretToBuild(laserBeamer);
 	}
 
+	public void SelectFireball()
+    {
+        BuildManager.instance.SelectTurretToBuild(null);
+        
+        bool currentMode = FireballTargeting.Instance.isActive;
+        FireballTargeting.Instance.ToggleFireballMode(!currentMode);
+    }
+
 }
