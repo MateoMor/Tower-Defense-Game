@@ -34,6 +34,9 @@ public class Node : MonoBehaviour {
 
 	void OnMouseDown ()
 	{
+		if (!enabled || DialogueManager.DialogueIsActive || EventSystem.current.IsPointerOverGameObject())
+            return;
+
 		if (EventSystem.current.IsPointerOverGameObject())
 			return;
 
@@ -108,6 +111,9 @@ public class Node : MonoBehaviour {
 
 	void OnMouseEnter ()
 	{
+		if (!enabled || DialogueManager.DialogueIsActive || EventSystem.current.IsPointerOverGameObject())
+            return;
+
 		if (EventSystem.current.IsPointerOverGameObject())
 			return;
 
@@ -126,6 +132,7 @@ public class Node : MonoBehaviour {
 
 	void OnMouseExit ()
 	{
+		if (!enabled || DialogueManager.DialogueIsActive) return;
 		rend.material.color = startColor;
     }
 
