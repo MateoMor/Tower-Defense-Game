@@ -82,6 +82,48 @@
             "texto": "¡Hora de empezar muchachos, se que están incómodos allá adentro por el poco espacio, así que es hora de salir!",
             "imagenPersonajePath": "Sprites/mr_tostada",
             "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Pato",
+            "texto": "Bien, ahora debo empezar a colocar mis defensas.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Pato",
+            "texto": "Para colocar las defensas, primero selecciona una de los objetos que aparecen en la parte inferior de la pantalla.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Pato",
+            "texto": "Luego dar CLIC en las bases de las torres que hay repartidas por el mapa.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Pato",
+            "texto": "Pero debo tener cuidado porque si no tengo dinero no puedo colocar más, aunque siempre puedo VENDERLAS.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Pato",
+            "texto": "Para ello, solo debo dar CLIC en el objeto en el mapa y seleccional SELL.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Pato",
+            "texto": "Le demostraré al Sr. Tostada de lo que estoy hecho.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
         }
         
     ]

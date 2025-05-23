@@ -1,0 +1,60 @@
+{
+    "dialogos": [
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Jaja ¿eso fue una victoria reñida o aplastante?",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Bueno eso realmente no importa mi amigo, fue divertido mientras duro.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Mr. Pato es usted el individuo más extraño que he conocido, pero coincido en que fue divertido.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Puede volver cuando quiera Sr. Tostada, me parece a mi que lo esta muy contento con su trabajo actual.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Aqui siempre hace falta un buen cocinero y buena compañía.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Es una gran oferta Mr. Pato gracias de verdad, pero debo irme.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "(A saber que cosas me gritará el alto mando)",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Adios Mr. Pato, felicidades por haber salvado su granero.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Hasta pronto Sr. Tostada, tengo la corazonada de que nos volveremos a ver amigo.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        }
+        
+    ]
+
+}
