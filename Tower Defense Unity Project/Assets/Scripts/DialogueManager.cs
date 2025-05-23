@@ -12,6 +12,7 @@ public class Dialogo
     public string imagenPersonajePath;
     [System.NonSerialized] public Sprite imagenPersonaje;
     public bool personajeHablando;
+    
 }
 
 [System.Serializable]
@@ -39,6 +40,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject shopCanvas; 
     public static bool DialogueIsActive { get; private set; }
 
+
     void Start()
     {
         eventSystem = EventSystem.current;
@@ -58,6 +60,7 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.LogError("No se asignó un archivo JSON de diálogos.");
         }
+
     }
 
     void Update()
@@ -66,7 +69,13 @@ public class DialogueManager : MonoBehaviour
         {
             SiguienteDialogo();
         }
+        else if (Input.GetKeyDown(KeyCode.Return)) 
+        {
+            SaltarDialogo();
+        }
     }
+
+    
 
     void PausarJuego()
     {
@@ -145,6 +154,22 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public void SaltarDialogo()
+    {
+        if (escribiendo)
+        {
+            
+            StopAllCoroutines();
+            textoDialogo.text = dialogos[dialogoActual].texto;
+            escribiendo = false;
+        }
+        else
+        {
+            
+            TerminarDialogo();
+        }
+    }
+
 
 
     void MostrarDialogo(int index)
@@ -197,6 +222,7 @@ public class DialogueManager : MonoBehaviour
 
     public void SiguienteDialogo()
     {
+
         if (escribiendo)
         {
             StopAllCoroutines();
@@ -223,8 +249,11 @@ public class DialogueManager : MonoBehaviour
         dialogueCanvas.SetActive(false);
         shopCanvas.SetActive(true); 
 
-        EventSystem.current.enabled = true;
-        EventSystem.current.SetSelectedGameObject(null);
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.enabled = true;
+            EventSystem.current.SetSelectedGameObject(null);
+        }
         
         Debug.Log("Dialogo terminado");
     }
