@@ -29,6 +29,7 @@ public class DialogueManager : MonoBehaviour
     public Image[] imagenesPersonajes;
     public float velocidadTexto = 0.05f;
 
+    public TextAsset dialogosJSON;
     private List<Dialogo> dialogos = new List<Dialogo>(); 
     private int dialogoActual;
     private bool escribiendo;
@@ -48,7 +49,15 @@ public class DialogueManager : MonoBehaviour
         PausarJuego();
 
         textoDialogo.text = "";
-        CargarDialogosPorNivel(1); 
+
+        if (dialogosJSON != null)
+        {
+            CargarDialogosDesdeJSON(dialogosJSON);
+        }
+        else
+        {
+            Debug.LogError("No se asignó un archivo JSON de diálogos.");
+        }
     }
 
     void Update()
@@ -108,21 +117,11 @@ public class DialogueManager : MonoBehaviour
         AudioListener.pause = false;
     }
 
-    public void CambiarNivel(int nuevoNivel)
+    public void CargarDialogosDesdeJSON(TextAsset jsonFile)
     {
-        CargarDialogosPorNivel(nuevoNivel);
-        dialogoActual = 0;
-        MostrarDialogo(0);
-    }
-
-    void CargarDialogosPorNivel(int nivel)
-    {
-        string rutaJSON = $"Dialogos/dialogo_nivel_{nivel}"; 
-        TextAsset jsonFile = Resources.Load<TextAsset>(rutaJSON);
-
         if (jsonFile == null)
         {
-            Debug.LogError($"No se encontró el archivo JSON: {rutaJSON}");
+            Debug.LogError("¡El JSON de diálogos es nulo!");
             return;
         }
 
@@ -141,9 +140,12 @@ public class DialogueManager : MonoBehaviour
 
         if (dialogos.Count > 0)
         {
-            MostrarDialogo(0); 
+            dialogoActual = 0;
+            MostrarDialogo(0);
         }
     }
+
+
 
     void MostrarDialogo(int index)
     {
