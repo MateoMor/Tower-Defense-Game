@@ -34,6 +34,7 @@ public class PauseMenu : MonoBehaviour {
 	{
 		Toggle();
 		sceneFader.FadeTo(SceneManager.GetActiveScene().name);
+		WaveSpawner.EnemiesAlive = 0;
     }
 
 	public void Menu ()
