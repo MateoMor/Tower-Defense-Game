@@ -1,0 +1,79 @@
+{
+    "dialogos": [
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "(Esto se esta complicando más de lo que deberia, ya me quiero ir)",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Y bien, ¿lo he dejado sin palabras Sr. Tostada?",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Es usted impresionante Mr. Pato, hace relucir su título de caballero.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Pero lastimosamente, aun no puedo permitirme tirar la toalla, será todo o nada.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "No hay que llegar a tales extremos Sr. Tostada, siempre puede volverlo a intentar a pesar de que pierda.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Admito que esto llega a ser divertido, incluso podemos sacar espacio para otras cosas, me complacería mucho probar sus recetas.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "¿De verdad?, es usted muy amistoso Mr. Pato.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Pero bueno, se viene el último contrataque, espero que este preparado.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Por supuesto, si hasta puedo lanzar fuego del cielo.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "¿Habla enserio?",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Muy enserio.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "(¿¿¿Cómo diablos puede lanzar magia Mr. Pato???)",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        }
+        
+        
+        
+    ]
+}

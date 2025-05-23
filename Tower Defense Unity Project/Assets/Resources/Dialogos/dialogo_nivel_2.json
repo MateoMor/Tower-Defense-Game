@@ -1,0 +1,71 @@
+{
+    "dialogos": [
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Increible Mr. Pato, ha logrado sobrevivir a nuestros ataques",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Te lo dije, no soy un pato facil de desplumar.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Jaja... Espero que corra con la misma suerte esta vez.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Tendra que enfrentarse a tropas más resistentes e incluso, problablemente tengan la capacidad de destruir sus defensas.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "No te preocupes noble pirata, aun no has visto todo de lo que soy capaz.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Ahora puedo ralentizar a las tropas a partir de la nueva defensa que construí y MEJORAR las defensas que construya.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "¿Se encuentra bien?, si desea puedo cocinarle algo.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Jojojo, quizás para otra ocasión Sr. Tostada, ya sabe con más calma luego de la batalla.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": ".... Ah verdad, la batalla. Ejem...",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "(Creo que realmente es un buen tipo, estos jovencitos de hoy en día :D)",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "¡Muchachos plan B, desplieguen tropas!",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        }
+        
+    ]
+}
