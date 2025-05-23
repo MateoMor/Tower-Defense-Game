@@ -4,7 +4,7 @@ public class Fireball : MonoBehaviour
 {
     public float speed = 15f;
     public float radius = 3f;
-    public int damage = 50;
+    public int damage = 75;
     public GameObject explosionEffect;
 
     private Vector3 target;
