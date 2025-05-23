@@ -49,6 +49,11 @@ public class BuildManager : MonoBehaviour {
 	{
 		turretToBuild = turret;
 		DeselectNode();
+
+		if (FireballTargeting.Instance != null)
+        {
+            FireballTargeting.Instance.ToggleFireballMode(false);
+        }
 	}
 
 	public TurretBlueprint GetTurretToBuild ()

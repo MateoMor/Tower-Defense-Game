@@ -1,0 +1,88 @@
+{
+    "dialogos": [
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Buen dia Mr. Pato, espero que esté teniendo un excelente día",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Emm... Buen día noble pirata, ¿puedo saber el motivo de su visita si no le molesta?",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Claro, me presento soy Sr. Tostada y mi ejército y yo estamos aquí para saquear sus tierras, si no es mucha molestia.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "...",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Vaya… Me temo que no puedo permitirlo (Increíble forma de robar a alguien)",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Oh vale entiendo, entonces lo dejo tranquilo… (Asi regreso rápido a seguir cocinando)",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "...",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "(No espera, no puedo regresar con las manos vacías, el Alto mando se enojará muchísimo, de nuevo…)",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "Ejemm... Entonces tendremos que hacerlo por la fuerza lo siento mucho.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "No se preocupe amable pirata, no creo que tengan la capacidad de superar mis defensas",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "De verdad lo siento mucho… Espero que se encuentre bien luego de que lo ataquemos.",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        },
+        {
+            "nombrePersonaje": "Mr. Pato",
+            "texto": "Este pato sabe de qué está hecho, confío en que estaré muy bien.",
+            "imagenPersonajePath": "Sprites/mr_pato",
+            "personajeHablando": true
+        },
+        {
+        
+            "nombrePersonaje": "Sr. Tostada",
+            "texto": "¡Hora de empezar muchachos, se que están incómodos allá adentro por el poco espacio, así que es hora de salir!",
+            "imagenPersonajePath": "Sprites/mr_tostada",
+            "personajeHablando": true
+        }
+        
+    ]
+}
