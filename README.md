@@ -1,4 +1,4 @@
-# Tower Defense Game
+# Sr.Tostada and Mr.Pato
 
 A Tower Defense strategy game where players build defensive structures to prevent enemies from reaching their base. Originally forked from [Brackeys](https://github.com/Brackeys) and further developed by [korotz10](https://github.com/korotz10) and [MateoMor](https://github.com/MateoMor) as a university project.
 
