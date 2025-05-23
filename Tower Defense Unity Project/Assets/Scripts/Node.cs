@@ -97,7 +97,6 @@ public class Node : MonoBehaviour {
 
 		Debug.Log("Turret upgraded!");
 	}
-
 	public void SellTurret ()
 	{
 		PlayerStats.Money += turretBlueprint.GetSellAmount();
@@ -107,6 +106,7 @@ public class Node : MonoBehaviour {
 
 		Destroy(turret);
 		turretBlueprint = null;
+		isUpgraded = false;
 	}
 
 	void OnMouseEnter ()

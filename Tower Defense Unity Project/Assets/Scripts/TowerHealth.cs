@@ -77,7 +77,23 @@ public class TowerHealth : MonoBehaviour {
             Destroy(effect, 5f);
         }
 
+        FindAndResetNode();
+
         // Eliminar la torre
         Destroy(gameObject);
+    }
+      // Busca el nodo que contiene esta torre y resetea su estado isUpgraded
+    void FindAndResetNode()
+    {
+        Node[] nodes = FindObjectsByType<Node>(FindObjectsSortMode.None);
+        
+        foreach (Node node in nodes)
+        {
+            if (node.turret == gameObject)
+            {
+                node.isUpgraded = false;
+                break;
+            }
+        }
     }
 }
